@@ -1,0 +1,14 @@
+/* TEAM */
+
+Your title: Maxim Oskolsky / Markup
+Site: warbrowsers.ru
+Twitter: oskolsky
+Location: Smolensk, Russia
+
+
+
+
+/* SITE */
+
+Last update: 2013/02/12
+Standards: HTML5, CSS3

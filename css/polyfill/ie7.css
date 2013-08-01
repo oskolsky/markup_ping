@@ -1,0 +1,62 @@
+body {
+  border: none;
+}
+
+/* CONTAINER
+---------------------------------------------------------------------------------------------------- */
+.container {
+  width: 960px;
+}
+
+/* FORMS
+---------------------------------------------------------------------------------------------------- */
+.control label {
+  font-size: 20px;
+}
+.control label span {
+ font-size: 18px;
+}
+.control input[type="text"] {
+  color: #fff;
+  font-size: 20px;
+  line-height: 43px;
+  padding: 0 10px;
+  width: 940px;
+} 
+.control textarea {
+  color: #fff;
+  font-size: 20px;
+  height: 243px;
+  padding: 15px 10px;
+  width: 940px;
+}
+.control input[type="submit"] {
+  color: #fff;
+  font-size: 20px;
+} 
+
+/* SELECT
+---------------------------------------------------------------------------------------------------- */
+.select {
+  width: 409px;
+}
+  .select_dropdown {
+    height: 177px;
+    width: 417px;
+  }
+
+/* MENU
+---------------------------------------------------------------------------------------------------- */
+.menu_i {
+  display: inline;
+}
+
+/* INDEX PAGE MENU
+---------------------------------------------------------------------------------------------------- */
+.footer-menu_i {
+  display: inline;
+}
+
+.clearfix {
+  zoom: 1;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<!--[if IE 8]><html lang="ru-RU" class="no-js ie8"><![endif]-->
+<!--[if IE 9]><html lang="ru-RU" class="no-js ie9"><![endif]-->
+<html lang="ru-RU" class="no-js">
+  <head>
+    <title>Ping - Contacts</title>
+    <!--#include virtual='/views/_head.html' -->
+  </head>
+  <body>
+    
+    <!--#include virtual='/views/_ie.html' -->
+
+    <header id="header" class="header" role="banner">
+      <div class="container clearfix">
+
+        <div class="f-l">
+          <!--[if lte IE 8]><a href="/"><img src="/img/logo.png" alt="Ping" width="108" height="56"></a><![endif]-->
+          <a href="/" class="svg"><img src="/img/logo.svg" alt="Ping" width="108" height="56"></a>
+        </div>
+
+        <menu class="menu f-r">
+          <li class="menu_i"><a class="menu_a" href="/terms.html">Privacy & terms</a></li>
+          <li class="menu_i"><span class="menu_a menu_a__current">Contacts</span></li>
+          <li class="menu_i"><a class="menu_a" href="https://twitter.com/AppPing">Blog</a></li>
+        </menu>
+
+      </div>
+    </header>
+
+    <section id="section" class="section" role="main">
+      <div class="container">
+        <div class="cnt">
+
+          <h1>Contact us</h1>
+
+          <form action="/feedbacks.json" id="feedback-form" method="post">
+            <div class="control">
+              <label>
+                Your name
+                <span>(required)</span>
+              </label>
+              <input name="feedback[username]" type="text">
+            </div>
+            <div class="control">
+              <label>
+                Your e-mail address
+                <span>(required)</span>
+              </label>
+              <input name="feedback[email]" type="text">
+            </div>
+            <div class="control">
+              <label>
+                Inquiry type
+                <span>(required)</span>
+              </label>
+              
+              <div class="select">
+                <div class="select_title">Please, select one</div>
+                <dl class="select_dropdown">
+                  <dd><a href="#">Bug report/Technical Issue</a></dd>
+                  <dd><a href="#">Sms-veriffication Issue</a></dd>
+                  <dd><a href="#">Press/Media request</a></dd>
+                  <dd><a href="#">Partnership</a></dd>
+                  <dd><a href="#">Other</a></dd>
+                </dl>
+                <div class="select_controls"></div>
+                <input class="select_hidden" name="feedback[type]" type="hidden">
+              </div>
+
+            </div>
+            <div class="control">
+              <label>
+                Subject
+                <span>(required)</span>
+              </label>
+              <input name="feedback[subject]" type="text">
+            </div>
+            <div class="control">
+              <label>
+                Message
+                <span>(required)</span>
+              </label>
+              <textarea name="feedback[message]"></textarea>
+            </div>
+            <div class="control submit" id="feedback-form-submit">
+              <input type="submit" value="Send">
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+    
+    <footer id="footer" class="footer" role="contentinfo">
+      <div class="container">
+        <p>&copy; 2013 Ping</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

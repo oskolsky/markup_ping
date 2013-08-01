@@ -1,0 +1,87 @@
+body {min-width: 1900px;}
+
+/* INDEX PAGE
+---------------------------------------------------------------------------------------------------- */
+
+/* Index */
+  .index_container {
+    height: 800px;
+    width: 1750px;
+  }
+    .index_block {
+      width: 1130px;
+    }
+      .index_side__left {
+        width: 410px;
+      }
+      .index_side__right {
+        margin-top: 70px;
+        width: 620px;
+      }
+        .index_logo img {
+          height: 84px;
+          width: 162px;
+        }
+        .index_cnt {
+          margin-bottom: 45px;
+        }
+          .index_cnt p {
+            font-size: 5.2rem;
+            line-height: 75px;
+          }
+        .index_download .ico {
+          height: 85px;
+          width: 85px;
+        }
+        .index_download .btn {
+          height: 69px;
+          margin-left: 27px;
+          margin-top: 8px;
+          width: 232px;
+        }
+
+/* iPhone */
+.iphone {  
+  height: 800px;
+  width: 410px;
+}
+  .iphone_phone {
+    height: 800px;
+    width: 410px;
+  }
+    .iphone_phone img {
+      height: 800px;
+      width: 410px;
+    }
+  .iphone_screen {
+    height: 800px;
+    width: 410px;
+  }
+    .iphone_screen img {
+      height: 800px;
+      width: 410px;
+    }
+  .iphone_marks {
+    height: 800px;
+    left: -343px;
+    width: 1096px;
+  }
+    .iphone_marks img {
+      height: 800px;
+      width: 1096px;
+    }
+
+/* Haw it works */
+.hiw {
+  height: 244px;
+  width: 244px;
+}
+  .hiw img {
+    height: 244px;
+    width: 244px;
+  }
+
+/* Menu */
+.footer-menu {
+  width: 1750px;
+}

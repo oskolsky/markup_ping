@@ -1,0 +1,115 @@
+.svg {
+  display: none;
+}
+
+/* INDEX PAGE
+---------------------------------------------------------------------------------------------------- */
+.index_cnt p {
+  font-size: 40px;
+}
+
+.footer-menu_a {
+  font-size: 20px;
+}
+
+
+/* INNER PAGE
+---------------------------------------------------------------------------------------------------- */
+
+/* Menu */
+.menu_a {
+  font-size: 20px;
+}
+
+/* Forms */
+.control label {
+  font-size: 20px;
+}
+.control label span {
+  font-size: 18px;
+}
+.control input[type="text"] {
+  font-size: 20px;
+  line-height: 43px;  
+} 
+.control textarea {
+  font-size: 20px;
+}
+.control input[type="submit"] {
+  font-size: 20px;
+} 
+  
+/* Footer */
+.footer {
+  font-size: 16px;
+}
+
+/* HEADERS
+---------------------------------------------------------------------------------------------------- */
+h1 {font-size: 26px;}
+h2 {font-size: 22px;}
+h3 {font-size: 18px;}
+h4 {font-size: 16px;}
+h4 {font-size: 14px;}
+
+/* CONTENT STYLES
+---------------------------------------------------------------------------------------------------- */
+.cnt {font-size: 18px;}
+
+.cnt > blockquote,
+.cnt > code,
+.cnt > dl,
+.cnt > ol,
+.cnt > ul,
+.cnt > img,
+.cnt > p,
+.cnt > table {margin-bottom: 30px;}
+
+/* Blockquote */
+.cnt > blockquote {
+  padding: 30px;
+  font-size: 17px;
+}
+
+/* Code */
+.cnt code {
+  font-size: 17px;
+}
+
+/* Lists */
+.cnt > dl dt {
+  margin-bottom: 15px;
+}
+.cnt > dl dd {margin-left: 45px;}
+
+.cnt > ol li,
+.cnt > ul li {margin: 0 0 20px 45px;}
+
+.cnt > ol li ol,
+.cnt > ol li ul,
+.cnt ul li ul {margin-top: 20px;}
+
+/* Headers */
+.cnt > h1,
+.cnt > h2,
+.cnt > h3,
+.cnt > h4,
+.cnt > h5,
+.cnt > h6 {margin-bottom: 20px;}
+
+/* Small */
+.cnt small {
+  font-size: 10px;
+}
+
+/* Sup, sub */
+.cnt sub,
+.cnt sup {
+  font-size: 10px;
+}
+
+/* Table */
+.cnt table th,
+.cnt table td {
+  padding: 10px 20px;
+}
